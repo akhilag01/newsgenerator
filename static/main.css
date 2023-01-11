@@ -27,7 +27,8 @@ body {
   padding-top: 60px;
 }
 .icon {
-  width: 34px;
+  width: 200px;
+  height: 200px;
 }
 h3 {
   font-size: 32px;
@@ -39,7 +40,8 @@ h3 {
 form {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 100000px;
+  max-width: 90%;
 }
 input[type="text"] {
   padding: 12px 16px;
@@ -62,5 +64,15 @@ input[type="submit"] {
 }
 .result {
   font-weight: bold;
+  height: 400px;
   margin-top: 40px;
+  width: 30%;
 }
+
+/*#textboxes-result-container {
+  display: flex; /* New container for textboxes and result */
+/*}*/
+/*#menus, #summary {
+  display: inline-block;
+  width: 50%; /* each element taking 50% of space */
+/*}*/
